@@ -3,6 +3,7 @@
   <p>Notes: {{question.note}}</p>
   <h3>{{question.content}}?</h3>
 
+  {{update-question question=question update="update"}}
   <button {{action 'delete' question}}>Delete Question</button>
   <hr>
 </div>
