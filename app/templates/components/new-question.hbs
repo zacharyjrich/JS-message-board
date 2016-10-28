@@ -13,13 +13,15 @@
     </div>
 
     <div class="form-group">
-      <label for="question">Question</label>
-      {{input value=question id="question" required="required"}}
+      <label for="content">Question</label>
+      {{input value=content id="content" required="required"}}
     </div>
 
     <button>Save</button>
+    <br><br>
   </form>
 </div>
 {{else}}
-  <button {{action 'postQuestionShow'}}>New Question</button>
+  <button {{action 'questionFormShow'}}>New Question</button>
+  <br><br>
 {{/if}}
