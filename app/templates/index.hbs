@@ -2,17 +2,15 @@
 
 {{new-question saveQuestion="saveQuestion"}}
 
-<div class="index-question-model">
+<div class="question">
   {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </div>
-
+<!-- 
 <div class="index-answer-model">
   {{#each model.answers as |answer|}}
-    <p>{{answer.author}}</p>
+    <p>{{answer.name}}</p>
     <p>{{answer.body}}</p>
   {{/each}}
-</div>
-
-<!-- update="update" destroyQuestion="destroyQuestion" -->
+</div> -->
