@@ -1,15 +1,15 @@
 { "questions": [{
-    "author": "Veruca Salt",
-    "note": "San Francisco",
-    "content": "Estate",
+    "author": "Justin Timberlake",
+    "note": "Just curious...",
+    "content": "Whatever happened to those guys from N-Sync"
   }, {
-    "author": "Mike Teavee",
-    "note": "Seattle",
-    "content": "Condo",
+    "author": "Lady Gaga",
+    "note": "Seinfield is my favorite show.",
+    "content": "Why is everyone so angry about my David Bowie tribute"
 
   }, {
-    "author": "Violet Beauregarde",
-    "note": "Portland",
-    "content": "Apartment",
+    "author": "Bruno Mars",
+    "note": "I just want some clarification",
+    "content": "Do you think the Super Bowl should have me perform every year"
   }]
 }
