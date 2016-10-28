@@ -1,26 +1,26 @@
 {{#if addNewQuestion}}
 <h3>Add a question!</h3>
-<div>
-  <form {{action 'saveQuestion' on='submit'}}>
-    <div class="form-group">
-      <label for="author">Author</label>
-      {{input value=author id="author" required="required"}}
-    </div>
+  <div>
+    <form {{action 'saveQuestion' on='submit'}}>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" required="required"}}
+      </div>
 
-    <div class="form-group">
-      <label for="note">Notes</label>
-      {{input value=note id="note" required="required"}}
-    </div>
+      <div class="form-group">
+        <label for="note">Notes</label>
+        {{input value=note id="note" required="required"}}
+      </div>
 
-    <div class="form-group">
-      <label for="content">Question</label>
-      {{input value=content id="content" required="required"}}
-    </div>
+      <div class="form-group">
+        <label for="content">Question</label>
+        {{input value=content id="content" required="required"}}
+      </div>
 
-    <button>Save</button>
-    <br><br>
-  </form>
-</div>
+      <button>Save</button>
+      <br><br>
+    </form>
+  </div>
 {{else}}
   <button {{action 'questionFormShow'}}>New Question</button>
   <br><br>

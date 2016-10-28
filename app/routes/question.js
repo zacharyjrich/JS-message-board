@@ -5,12 +5,6 @@ export default Ember.Route.extend({
     return this.store.findRecord('question', params.question_id);
   },
   actions: {
-    saveQuestion(params) {
-      var newQuestion = this.store.createRecord('question', params);
-      newQuestion.save();
-      this.transitionTo('index');
-    },
-
     update(question, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key]!==undefined) {
@@ -18,7 +12,7 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-      this.transitionTo('index');
+      this.transitionTo('question');
     },
 
     saveAnswer(params) {

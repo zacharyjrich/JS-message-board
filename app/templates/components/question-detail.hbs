@@ -2,12 +2,9 @@
   <!-- <p>Author: {{question.author}}</p> -->
   <h4>{{question.content}}</h4>
   <p>Notes: {{question.note}}</p>
-  <!-- <button {{action 'delete' question}}>Delete Question</button> -->
-</div>
 
-<h3>Answers</h3>
+  <h3>Answers</h3>
 
-<div class="answer-model">
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}
