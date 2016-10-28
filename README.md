@@ -11,11 +11,17 @@ The Q & A is a message board that will allow users to view, add, and edit questi
 ## Objectives of Project
 
 1) Questions should have the content of the question itself, an author and additional notes.
+
 2) Answers should have the content of the answer and the author.
+
 3) Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+
 4) List all questions on the homepage, with only the question and the name of the author showing.
+
 5) Users should be able to click on a question to view additional information.
+
 6) Allow users to add and edit questions.
+
 7) Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
 ## Prerequisites
@@ -49,10 +55,6 @@ You will need the following things properly installed on your computer.
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
