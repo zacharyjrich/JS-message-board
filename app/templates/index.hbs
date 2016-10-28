@@ -8,10 +8,12 @@
   {{/each}}
 </div>
 
+{{new-answer saveAnswer="saveAnswer"}}
+
 <div class="index-answer-model">
   {{#each model.answers as |answer|}}
-    {{answer.author}}
-    {{answer.body}}
+    <p>{{answer.author}}</p>
+    <p>{{answer.body}}</p>
   {{/each}}
 </div>
 
