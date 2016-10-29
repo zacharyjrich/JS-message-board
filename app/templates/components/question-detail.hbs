@@ -1,9 +1,9 @@
 <div class="question-detail">
   <!-- <p>Author: {{question.author}}</p> -->
-  <h4>{{question.content}}</h4>
+  <p>Question: {{question.content}}</p>
   <p>Notes: {{question.note}}</p>
 
-  <h3>Answers</h3>
+  <h3>Answers:</h3>
 
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
