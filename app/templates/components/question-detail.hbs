@@ -1,4 +1,5 @@
-<div class="question-detail">
+<div class="row">
+  <div class="question-detail col-sm-6">
   <!-- <p>Author: {{question.author}}</p> -->
   <p>Question: {{question.content}}</p>
   <p>Notes: {{question.note}}</p>
@@ -8,4 +9,5 @@
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}
+  </div>
 </div>
