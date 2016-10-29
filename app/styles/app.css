@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
 body {
   background-color: #7DACC1;
-  font-family: Courier, monospace;;
+  font-family: Quicksand, sans-serif;
 }
 
 .jumbotron {
