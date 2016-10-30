@@ -4,10 +4,12 @@
   <p>Question: {{question.content}}</p>
   <p>Notes: {{question.note}}</p>
 
+  <button {{action 'delete' question}}>Delete Question</button>
+
   <h3>Answers:</h3>
 
   {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
+    {{answer-tile answer=answer destroyQuestion="destroyQuestion"}}
   {{/each}}
   </div>
 </div>
