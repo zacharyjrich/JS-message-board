@@ -1,13 +1,12 @@
 <div class="row">
-  <div class="question-detail col-sm-6">
+  <div class="question-detail text-center">
   <!-- <p>Author: {{question.author}}</p> -->
   <p>Question: {{question.content}}</p>
   <p>Notes: {{question.note}}</p>
 
-  <button {{action 'delete' question}}>Delete Question</button>
+  <button id="delete-button" {{action 'delete' question}}>Delete Question</button>
 
   <h3>Answers:</h3>
-
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer destroyQuestion="destroyQuestion"}}
   {{/each}}

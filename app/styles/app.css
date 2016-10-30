@@ -10,10 +10,22 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #161925;
   color: white;
 }
 
 .link-color {
   color: white;
+}
+
+#question-header, #detail-header {
+  margin-bottom: 35px;
+}
+
+#new-question, #edit-question {
+  margin-top: 25px;
+}
+
+#delete-button, #answer-button {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }

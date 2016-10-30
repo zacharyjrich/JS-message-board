@@ -1,7 +1,10 @@
-<h3>{{model.author}} wants to know...</h3>
-
-{{update-question question=model update="update"}}
-
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
-
-{{new-answer saveAnswer="saveAnswer" question=model}}
+<div class="row">
+  <div class="col-sm-6 text-center">
+    <h3 id="detail-header">{{model.author}} wants to know...</h3>
+    {{question-detail question=model destroyQuestion="destroyQuestion"}}
+    {{new-answer saveAnswer="saveAnswer" question=model}}
+  </div>
+  <div class="col-sm-6 text-center" id="edit-question">
+    {{update-question question=model update="update"}}
+  </div>
+</div>
