@@ -4,7 +4,7 @@
   <p>Question: {{question.content}}</p>
   <p>Notes: {{question.note}}</p>
 
-  <button id="delete-button" {{action 'delete' question}}>Delete Question</button>
+  <button id="delete-button" class="btn btn-warning" {{action 'delete' question}}>Delete Question</button>
 
   <h3>Answers:</h3>
   {{#each question.answers as |answer|}}

@@ -17,11 +17,11 @@
         {{input value=content id="content" required="required"}}
       </div>
 
-      <button>Save</button>
+      <button class="btn btn-warning">Save</button>
       <br><br>
     </form>
   </div>
 {{else}}
-  <button {{action 'questionFormShow'}}>Add a question here!</button>
+  <button class="btn btn-warning" {{action 'questionFormShow'}}>Add a question here!</button>
   <br><br>
 {{/if}}

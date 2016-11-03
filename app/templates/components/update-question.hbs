@@ -16,10 +16,10 @@
         {{input value=content id="content" placeholder=question.content}}
       </div>
 
-      <button{{action 'update' question}}>Save</button>
+      <button class="btn btn-warning" {{action 'update' question}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updateQuestionForm'}}>Edit Question</button>
+  <button class="btn btn-warning" {{action 'updateQuestionForm'}}>Edit Question</button>
   <br><br>
 {{/if}}
