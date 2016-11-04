@@ -5,6 +5,11 @@ body {
   font-family: Rubik, sans-serif;
 }
 
+#this {
+  font-family: Rubik, sans-serif;
+
+}
+
 .jumbotron {
   background-image: url("img/thinking.jpg");
   background-repeat: no-repeat;
