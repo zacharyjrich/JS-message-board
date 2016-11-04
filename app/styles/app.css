@@ -1,13 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 
 body {
-  background-color: #7DACC1;
+  background-color: #048BA8;
   font-family: Rubik, sans-serif;
-}
-
-#this {
-  font-family: Rubik, sans-serif;
-
+  color: white;
 }
 
 .jumbotron {
@@ -15,11 +11,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: white;
 }
 
 .link-color {
-  color: white;
+  color: #ACFCD9;
 }
 
 #question-header, #detail-header {
@@ -27,10 +22,10 @@ body {
 }
 
 #new-question, #edit-question {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
-#delete-button, #answer-button {
+.buttons, #answer-button {
   margin-top: 15px;
   margin-bottom: 5px;
 }
