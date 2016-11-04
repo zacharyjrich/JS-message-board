@@ -4,6 +4,7 @@
     {{#each model.questions as |question|}}
       {{question-answered question}} {{question-tile question=question}}
     {{/each}}
+    <p><span class="glyphicon glyphicon-send"></span> ----- this question needs answers</p>
   </div>
   <div class="col-sm-4 col-sm-offset-1" id="new-question">
     {{new-question saveQuestion="saveQuestion"}}

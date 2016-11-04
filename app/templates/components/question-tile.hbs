@@ -1,5 +1,6 @@
 <div id="question-tile">
   <p>Author: {{question.author}}</p>
   <p>Question: {{#link-to 'question' question.id class='link-color'}}{{question.content}} {{/link-to}}</p>
+  <p># of Answers: {{answerAmount}}</p>
   <hr>
 </div>
