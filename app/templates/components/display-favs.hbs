@@ -1,6 +1,6 @@
-<div>
+<div id="favs-display">
+  <h3>Favorites</h3>
   {{#each favoriteQuestions.favQuestions as |favQuestion|}}
-    {{favQuestion.author}}
-    {{favQuestion.content}}
+    <p>{{favQuestion.author}}- {{favQuestion.content}}</p>
   {{/each}}
 </div>

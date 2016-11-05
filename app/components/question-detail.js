@@ -6,6 +6,7 @@ export default Ember.Component.extend({
   actions: {
     addToFavs(question) {
       this.get('favoriteQuestions').add(question);
+      alert('Added to favorites!');
       console.log(question);
     },
 

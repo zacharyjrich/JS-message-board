@@ -23,6 +23,7 @@ body {
 
 #new-question, #edit-question {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .buttons, #answer-button {
