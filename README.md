@@ -1,6 +1,6 @@
 # The Q & A
 
-#### Message Board, Week 3 Epicodus Project, 10.28.2016
+#### Message Board, Week 3 & 4 Epicodus Project, 10.28.2016, 11.4.2016
 
 #### By Zachary Richards
 
@@ -23,6 +23,14 @@ The Q & A is a message board that will allow users to view, add, and edit questi
 6) Allow users to add and edit questions.
 
 7) Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+
+## Objectives of Project(Continuation)
+
+1) Use helper to show glyphicon for questions that have no answers added.
+
+2) Use computed property to show how many answers each question has been given.
+
+3) Integrate a service that will allow user to favorite a question and display their favorites.
 
 ## Prerequisites
 
