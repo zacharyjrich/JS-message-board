@@ -17,16 +17,24 @@ body {
   color: #ACFCD9;
 }
 
-#question-header, #detail-header {
-  margin-bottom: 35px;
+#question-header, #detail-header, #save-answer {
+  margin-bottom: 25px;
 }
 
 #new-question, #edit-question {
   margin-top: 20px;
-  margin-bottom: 30px;
 }
 
-.buttons, #answer-button {
+.buttons {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#answer-button {
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.favs-display {
+  margin-top: 50px;
 }

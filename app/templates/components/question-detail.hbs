@@ -1,7 +1,6 @@
 <div class="row text-center">
-  <div>
   <!-- <p>Author: {{question.author}}</p> -->
-  <p>Question: {{question.content}}</p>
+  <h4>{{question.content}}</h4>
   <p>Notes: {{question.note}}</p>
 
   <div class="buttons">
@@ -13,5 +12,4 @@
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer destroyQuestion="destroyQuestion"}}
   {{/each}}
-  </div>
 </div>
